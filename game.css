@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background-color: blueviolet;
+}
+.box{
+    background-color: aquamarine;
+    border: solid 1px;
+    border-radius: 10px;
+    height: 90px;
+    margin: 2px;
+    width: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:cadetblue;
+    font-size: 70px;
+    
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    color: blanchedalmond;
+}
+.game-container{
+    margin-inline: auto;
+    width: 300px;
+    height: 290px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reset{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    background-color: brown;
+    color: aliceblue;
+    font-size: larger;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+#winner{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    background-color: chocolate;
+    font-size: xx-large;
+    width: 250px;
+    margin-inline: auto;
+    border-radius: 10px;
+    
+
+}
