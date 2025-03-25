@@ -2,7 +2,7 @@ let boxes = document.querySelectorAll('.box');
 let restart  = document.querySelector('.reset');
 let windiv = document.querySelector('#winner');
 
-let turn0 = true; //select a turn of players 
+let turn0 = true; 
 
 const winpattern = [
     [0,1,2],
@@ -25,7 +25,7 @@ boxes.forEach((box) => {
             box.innerText = "X";
             turn0 = true;
         }
-        box.disabled = true; //this is not working 
+        box.disabled = true;
         checkwinner ();
     });
 
